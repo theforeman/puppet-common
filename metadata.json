@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "author": "katello",
   "summary": "Provides custom parser functions for use in other Katello modules.",
-  "license": "GPL3.0+",
+  "license": "GPL-3.0+",
   "source": "https://github.com/Katello/puppet-common",
   "project_page": "https://github.com/Katello/puppet-common",
   "issues_url": "https://github.com/Katello/puppet-common/issues",
