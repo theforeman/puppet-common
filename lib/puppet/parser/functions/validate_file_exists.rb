@@ -10,7 +10,7 @@ DOC
   ) do |args|
 
     args.each do |arg|
-      raise Puppet::ParseError, "does not exist" unless File.exist?(arg)
+      raise Puppet::ParseError, "does not exist" unless File.exists?(arg)
     end
 
     return true
