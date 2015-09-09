@@ -7,13 +7,13 @@ This function can work only when running puppet apply.
 # TODO:
 Find a way how to skip it for puppetmaster scenario.
 DOC
-  ) do |args|
+  ) do |files|
 
-    args.each do |arg|
-      raise Puppet::ParseError, "does not exist" unless File.exist?(arg)
+    files.each do |file|
+      raise Puppet::ParseError, "#{file} does not exist" unless File.exist?(file)
     end
 
-    return true
+    true
   end
 
 end
