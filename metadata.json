@@ -1,6 +1,6 @@
 {
   "name": "katello-common",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": "katello",
   "summary": "Provides custom parser functions for use in other Katello modules.",
   "license": "GPL-3.0+",
@@ -17,21 +17,18 @@
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "6",
         "7"
       ]
     },
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
-        "6",
         "7"
       ]
     },
     {
       "operatingsystem": "Scientific",
       "operatingsystemrelease": [
-        "6",
         "7"
       ]
     }
