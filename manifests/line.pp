@@ -16,6 +16,6 @@ define common::line($file, $line, $ensure = 'present') {
       # exec { "/usr/bin/perl -ni -e 'print unless /^\\Q${line}\\E\$/' '${file}'":
       #     onlyif => "/bin/grep -qFx '${line}' '${file}'"
       # }
-      }
+    }
   }
 }
