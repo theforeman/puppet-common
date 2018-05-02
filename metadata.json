@@ -1,6 +1,6 @@
 {
   "name": "katello-common",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "katello",
   "summary": "Provides custom parser functions for use in other Katello modules.",
   "license": "GPL-3.0+",
